@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/*
+fontes externas
+-> format()
+- opentype (otf)
+- truetype(ttf)
+- embedded-opentype
+-truetype-aat(apple advanced typography)
+-svg
+*/
+@font-face {
+    font-family: 'Kanit';
+    src: url('Kanit-Regular.ttf') format(truetype);
+}
+body{
+
+ font-family: 'Fredoka One';
+ 
+}
+
+h1{
+    font-size: 60px;
+    background-color: #B057A0;
+    width: 800px;
+    color: azure;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    margin: auto;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Kanit';
+}

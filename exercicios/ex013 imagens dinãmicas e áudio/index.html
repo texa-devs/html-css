@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+ <h1>imagens dinâmicas</h1>  
+ <p>tente abrir esse sitem em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p> 
+
+ <picture>
+    <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem flexível">
+ </picture>
+ <br>
+ <p>A ordem da source media DEVE ser respeitada, ou não funciona, olhar no código</p>
+ <br>
+ <h1>Sons e música</h1>
+ <p>Com a tag audio você pode selecionar músicas para tocar em seu site, mas é necessário colocar mais parâmetros para que ele funcione corretamente. Tais como controls (lugar para dar play) e autoplay (não funciona em todos navegadores).</p>
+ <audio src="audios/All I Am - Dyalla.mp3" controls autoplay></audio>
+ <p>os formatos suportados são MP3, OGG e WAV</p>
+ <h2>Mais compatibilidade</h2>
+ <audio preload="auto" controls><!--parametros auto=antes de carregar o site ele tenta baixar, metadata ele tenta carregar algumas coisas antes e none=não carrega nada até o click. -->
+
+    <source src="audios/Fat Man - Yung Logos.mp3" type="audio/mpeg"><!--para mp3 é mpeg, ogg para ogg e para wav é wav. Ele vai executar o código de cima para baixo, se o mp3 for primeiro, vai tentar mp3 primeiro e depois os subsequentes-->
+    <p>Infelizmente não funcionam áudios no seu navegador =(</p>
+ </audio>
+ <p>O processo é discutido no código :)</p>
+ <br>
+ <p>Enjoy the songs~</p>
+</body>
+</html>
