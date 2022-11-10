@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(255, 246, 239);
+}
+
+input:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 0px #6ac2fd;
+    
+}
