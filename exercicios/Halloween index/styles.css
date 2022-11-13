@@ -18,7 +18,15 @@
     margin-top: 60px;
     margin-bottom: -45px;
     display: flex;
-    text-align: left;
+    flex-direction: column;
+}
+
+.format{
+    margin: 20px;
+}
+
+.abobra{
+    width: 100%;
 }
 
 .custom-shape-divider-top-1667713424 {
