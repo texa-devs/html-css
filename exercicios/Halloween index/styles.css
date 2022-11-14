@@ -14,7 +14,17 @@
 
 }
 
-#right {
+.flexabt{
+    display: flex;
+    
+}
+
+#frame{
+    background-color: var(--forth);
+    border-radius: 50%;
+}
+
+.right {
     margin-top: 60px;
     margin-bottom: -45px;
     display: flex;
@@ -48,6 +58,16 @@
 
 .custom-shape-divider-top-1667713424 .shape-fill {
     fill: #6d597a;
+}
+
+.grid{
+    margin-top: 115px;
+    margin-bottom: 150px;
+}
+
+#cat{
+    flex-direction: row;
+    align-items: center;
 }
 
 .blue {
